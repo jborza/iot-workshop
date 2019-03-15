@@ -8,15 +8,15 @@
 #define COUNT_OF(x) ((sizeof(x)/sizeof(0[x])) / ((size_t)(!(sizeof(x) % sizeof(0[x])))))
 
 // WiFi access point
-#define WIFI_AP_NAME        "WIFI_AP"
+#define WIFI_AP_NAME        "iPhone"
 // WiFi password
-#define WIFI_PASSWORD       "WIFI_PASSWORD"
+#define WIFI_PASSWORD       "swissre1"
 
 // See https://thingsboard.io/docs/getting-started-guides/helloworld/ 
 // to understand how to obtain an access token
 #define TOKEN               "TOKEN"
 // ThingsBoard server instance.
-#define THINGSBOARD_SERVER  "demo.thingsboard.io"
+#define THINGSBOARD_SERVER  "srthingsboard.westeurope.cloudapp.azure.com:8080"
 
 // Baud rate for debug serial
 #define SERIAL_DEBUG_BAUD    115200
