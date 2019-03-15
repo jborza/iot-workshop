@@ -16,7 +16,7 @@
 // to understand how to obtain an access token
 #define TOKEN               "TOKEN"
 // ThingsBoard server instance.
-#define THINGSBOARD_SERVER  "demo.thingsboard.io"
+#define THINGSBOARD_SERVER  "srthingsboard.westeurope.cloudapp.azure.com"
 
 // Baud rate for debug serial
 #define SERIAL_DEBUG_BAUD    115200
